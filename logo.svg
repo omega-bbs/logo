@@ -1,3 +1,13 @@
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-  <text x="50%" y="50%" font-family="&quot;Prevya Display&quot;" font-size="160" text-anchor="middle" dominant-baseline="middle" transform="translate(0, 16)" fill="#000">O</text>
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="part">
+      <rect x="-50" y="-50" width="65" height="35" />
+    </g>
+  </defs>
+  <g stroke-width="4" stroke="#000" fill="none" transform="translate(80, 80)">
+    <use xlink:href="#part" transform="rotate(0)" />
+    <use xlink:href="#part" transform="rotate(90)" />
+    <use xlink:href="#part" transform="rotate(180)" />
+    <use xlink:href="#part" transform="rotate(270)" />
+  </g>
 </svg>
